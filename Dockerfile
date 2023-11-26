@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . /app
 
-CMD ["deno", "run", "-A", "mod.ts"]
+CMD ["deno", "run", "-A", "main.ts"]
